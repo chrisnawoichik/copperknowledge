@@ -1,0 +1,51 @@
+.ast-container {
+margin-left:auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+.ast-header-break-point .main-header-bar-navigation {
+width: -webkit-calc(100% + 10px);
+width: calc(100% + 10px);
+margin: 0 -20px;
+}
+.ast-row {
+width: 100%;
+}
+p, entry-content p {margin-top:.8em}
+.site-header .site-description {
+margin-top: inherit;
+}
+.single .entry-header {
+margin-bottom:.5em
+}
+blockquote {
+margin: 1.5em .5em 1.5em .5em;
+padding: 0em;
+font-size: 1em;
+color:#0e354c;
+line-height: inherit;
+position: relative;
+}
+blockquote a {
+color:#3b3b3b;
+}
+.wp-caption .wp-caption-text {
+margin: .3em 0;
+font-size:15px
+}
+.wp-caption {
+margin-bottom:0em;
+}
+.single.ast-separate-container .ast-author-meta {
+padding: 2em 1em 2em;
+}
+.ast-archive-description p {
+font-size: 1em;
+}
+@media screen and (max-width:600px) {
+.ast-no-sidebar.ast-separate-container .entry-content .alignwide {
+    margin-left: 3px;
+    margin-right: 3px
+}
+}
